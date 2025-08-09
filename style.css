@@ -6,7 +6,8 @@ body {
   overflow: hidden;
 }
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Quicksand", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
   color: #2b2140;
   background-image: url("pink_sparkles.png");
   background-size: cover;
@@ -143,6 +144,8 @@ input[type="text"]:focus {
   box-shadow: 0 4px 8px rgba(255, 155, 203, 0.4);
   transition: all 0.2s ease;
   margin-top: 6px;
+  font-family: "Quicksand", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
 }
 
 .btn:hover {
@@ -159,6 +162,8 @@ input[type="text"]:focus {
   width: 25%;
   background: rgba(122, 177, 214, 0.836);
   color: #ffffff;
+  font-family: "Quicksand", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
 }
 
 .result-line1 {
@@ -184,7 +189,7 @@ input[type="text"]:focus {
   line-height: 2;
   text-align: center;
   color: #ff6fa6;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-weight: 600;
   font-size: 14px;
 }
@@ -199,5 +204,25 @@ input[type="text"]:focus {
   }
   h1 {
     font-size: 1.6rem;
+  }
+  .btn {
+    font-size: 12px;
+    width: 80%;
+  }
+  .btn-secondary {
+    font-size: 12px;
+    width: 35%;
+  }
+
+  .result-line1 {
+    font-size: 14px;
+  }
+
+  .result-percent {
+    font-size: 18px;
+  }
+
+  .result-line2 {
+    font-size: 12px;
   }
 }

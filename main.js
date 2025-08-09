@@ -16,7 +16,7 @@ document.getElementById("love-form").addEventListener("submit", function (e) {
   if (loveScore > 70) {
     line2 = "You’re each other’s missing puzzle piece.";
   } else if (loveScore > 30) {
-    line2 = "This could go either way. Maybe it'll work, maybe it won't..";
+    line2 = "There are some sparks, but also some fizzle.";
   } else {
     line2 = "You might be better off as friends.";
   }
