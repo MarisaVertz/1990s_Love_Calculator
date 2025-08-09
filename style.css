@@ -70,6 +70,7 @@ label {
   font-size: 14px;
   color: #ff5f9c;
   margin-bottom: 6px;
+  font-weight: 600;
 }
 
 input[type="text"] {
@@ -110,7 +111,7 @@ input[type="text"] {
         violet,
         orange
       ),
-      linear-gradient(rgba(253, 250, 255, 0.15), rgba(253, 250, 255, 0.15));
+      linear-gradient(rgba(253, 250, 255, 0.1), rgba(253, 250, 255, 0.1));
     -webkit-background-clip: text, padding-box;
     background-clip: text, padding-box;
 
@@ -156,25 +157,31 @@ input[type="text"]:focus {
 
 .btn-secondary {
   width: 25%;
-  background: rgba(76, 152, 199, 0.5);
+  background: rgba(122, 177, 214, 0.836);
   color: #ffffff;
 }
 
-.result {
-  background: rgba(255, 255, 255, 0.25);
+.result-line1 {
+  font-size: 16px;
+  color: #4a8bb4;
+  font-weight: 600;
 }
 
-#resultTitle {
-  margin: 0 0 6px;
-  text-align: center;
-  font-size: 18px;
-  color: #70b0d8;
-  padding-bottom: 10px;
+.result-percent {
+  font-size: 34px;
+  font-weight: 800;
+  color: #fd4a8f;
+}
+
+.result-line2 {
+  font-size: 14px;
+  color: #ff5f9c;
+  font-weight: 600;
 }
 
 #resultText {
   margin: 0 0 8px;
-  line-height: 1.5;
+  line-height: 2;
   text-align: center;
   color: #ff6fa6;
   padding-bottom: 20px;
