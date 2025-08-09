@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Calculator</title>
+
+    <meta property="og:title" content="Love Calculator" />
+    <meta
+      property="og:description"
+      content="Find out the compatibility between you and your crush!"
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.pixabay.com/photo/2020/04/17/12/28/cloud-5055011_960_720.jpg"
+    />
+    <meta property="og:url" content="" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <section class="card">
+        <h1>The Love Calculator</h1>
+        <p class="tagline">How compatible are you and your crush?</p>
+
+        <form id="love-form" class="card">
+          <div class="field">
+            <label for="yourName">Your name</label>
+            <input id="yourName" name="yourName" type="text" required />
+          </div>
+
+          <div class="field">
+            <label for="crushName">Crush's name</label>
+            <input id="crushName" name="crushName" type="text" required />
+          </div>
+
+          <button type="submit" class="btn">Calculate the Chemistry 💘</button>
+        </form>
+      </section>
+
+      <section id="result" class="card result hidden">
+        <h2 id="resultTitle">Your Results</h2>
+        <p id="resultText"></p>
+        <button id="tryAgain" class="btn btn-secondary">Try again</button>
+      </section>
+    </main>
+  </body>
+</html>
